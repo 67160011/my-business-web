@@ -2,50 +2,24 @@
 เว็บไซต์จำลองของ **PETCARE ** สำหรับ **Assignment #1**  
 เป็นเว็บไซต์บริษัทPETCARE บริษัทรับฝากดูแลสัตว์เลี้ยง
 
-## รายละเอียดข้อมูล
-เว็บไซต์ประกอบด้วย **4 หน้าหลัก** ดังนี้ :
 
-1. หน้าแรก (Home)
-2. เกี่ยวกับเรา (About)
-3. บริการ (Services)
-4. ติดต่อเรา (Contact)
+## ลิงก์เข้าสู่หน้าต่างๆ:
 
-## โครงสร้างไฟล์
+[หน้าแรก](index.html)
+![index.html](images/indexst.png)
 
-- index.html : หน้าแรก (Home)
-- about.html : หน้าเกี่ยวกับเรา (About)
-- services.html : หน้าบริการ (Services)
-- contact.html : หน้าติดต่อเรา (Contact)
-- images/ : โฟลเดอร์เก็บรูปภาพ
-  - index.png
-  - about1.png
-  - about2.png
-  - service1.png
-  - service2.png
-  - contact.png
-- README.md : เอกสารประกอบโปรเจกต์
-
-## ลิงก์เข้าสู่หน้าต่างๆ
-
-### [หน้าแรก](index.html)
-
-![index Page](images/index.png)
-
-### [เกี่ยวกับเรา (About)](about.html)
-
-![About Page 1](images/about1.png)
-![About Page 2](images/about2.png)
-
-### [บริการของเรา (Services)](services.html)
-
-![Services Page 1](images/services1.png)
-![Services Page 2](images/services2.png)
+[เกี่ยวกับเรา](about.html)
+![about1](images/abst1.png)
+![about2](images/abst2.png)
+![about3](images/abst3.png)
 
 
-### [ติดต่อเรา (Contact)](contact.html)
+[บริการของเรา](services.html)
+![services1](images/svst1.png)
+![services2](images/svst2.png)
 
-![Contact Page ](images/contact.png)
-
+[ติดต่อเรา](contact.html)
+![contact](images/ctst.png)
 
 ```text
 my-business-web/
@@ -59,10 +33,10 @@ my-business-web/
 └── images/
     ├── logo.jpg
     ├── ...
+
 ```
 
 ## CSS Checklist
-
 - [x] Universal Selector & Reset (`*`)
 - [x] Element Selectors (`h1–h4`, `p`, `a`, `table`)
 - [x] Class Selectors (`.hero`, `.card`, `.btn`)
@@ -77,21 +51,6 @@ my-business-web/
 - [x] CSS Organization & Comments
 
 ---
-
-## ลิงก์เข้าสู่หน้าต่างๆ:
-
-[หน้าแรก](index.html)
-![index.html](images/Screenshot-index.png)
-
-[เกี่ยวกับเรา](about.html)
-![about1](images/Screenshot-About.png)
-
-[บริการของเรา](services.html)
-![services](images/Screenshot-services.png)
-
-[ติดต่อเรา](contact.html)
-![contact](images/Screenshot-Contact.png)
-
 ## ผู้จัดทำ
 
 ชื่อ-นามสกุล: ธนวัฒน์ สุนทรชัย
