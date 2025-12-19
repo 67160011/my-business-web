@@ -1,74 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>เกี่ยวกับเรา - PET CARE</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header style="display: flex; align-items: center; gap: 10px;">
-        <h1>เกี่ยวกับบริษัท PET CARE</h1>
-
+    <header id="header">
+        <h1>PET CARE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="services.html">บริการ</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
     </header>
-    <h2>เรื่องราวของบริษัท PET CARE</h2>
-        <p>บริษัทของเราก่อตั้งขึ้นเมื่อปี2567เนื่องด้วยเจ้าของบริษัทเคยมีสัตว์เป็นของตัวเองแต่เจ้าของบริษัทมักมีธุระที่ต้องออกไปข้างนอกอยู่เสมอ</p>
-        <p>วันหนึ่งเจ้าของบริษัทได้ออกไปทำธุระข้างนอกเหมือนวันอื่นที่ผ่าน แต่เมื่อเจ้าของกับมาบ้านก็ได้พบกับสัตว์เลี้ยงของเขาที่ได้เสียชีวิตจากการตกลงมาจากบ้านชั้น2</p>
-        <p>เจ้าของเห็นอย่างนั้นจึงโทษตัวเองที่ไม่มีเวลาดูแลสัตว์เลี้ยงของตัวเอง ระหว่างที่เจ้าของกำลังเสียใจได้เลื่อนโพสต์ในfacebook</p>
-        <p>โพสต์ที่เจ้าของเจอนั้นเป็นโพสต์ของคนคนหนึ่งที่โพสต์ข้อความว่า "รับฝากเลี้ยงสัตว์เลี้ยงของคุณในราคาย่อมเยาวและดูแลอย่างดี"</p>
-        <p>เจ้าของเห็นโพสต์นั้นเกิดไอเดียขึ้น คิดริเริ่มบริษัทPET CARE เพื่อดูแลสัตว์เลี้ยงของลูกค้าที่ไม่มีเวลาดูแลสัตว์เลี้ยงของตัวเองและจะดูแลอย่างดีเหมือนเป็นเจ้าของของสัตว์เลี้ยวตัวนั้น</p>
 
-    <h2>ทีมงานของ PET CARE</h2>
-    <figure>
-    <img src="ceo.png" alt="CEO" style="width:200px;"> 
-    <figcaption>ชื่อ: คุณอาร์ท  ตำแหน่ง CEO</figcaption>
-</figure>
+    <main class="section">
+        <article class="company-story">
+            <h2>เรื่องราวของบริษัท PET CARE</h2>
+            <p> บริษัทของเราก่อตั้งขึ้นเมื่อปี2567เนื่องด้วยเจ้าของบริษัทเคยมีสัตว์เป็นของตัวเองแต่เจ้าของบริษัทมักมีธุระที่ต้องออกไปข้างนอกอยู่เสมอ
+        วันหนึ่งเจ้าของบริษัทได้ออกไปทำธุระข้างนอกเหมือนวันอื่นที่ผ่านๆมา แต่เมื่อเจ้าของกับมาบ้านก็ได้พบกับสัตว์เลี้ยงของเขาที่ได้เสียชีวิตจากการตกลงมาจากบ้านชั้น2
+        เจ้าของเห็นอย่างนั้นจึงโทษตัวเองที่ไม่มีเวลาดูแลสัตว์เลี้ยงของตัวเอง ระหว่างที่เจ้าของกำลังเสียใจได้เลื่อนโพสต์ในfacebook
+        โพสต์ที่เจ้าของเจอนั้นเป็นโพสต์ของคนคนหนึ่งที่โพสต์ข้อความว่า "รับฝากเลี้ยงสัตว์เลี้ยงของคุณในราคาย่อมเยาวและดูแลอย่างดี"
+        เจ้าของเห็นโพสต์นั้นเกิดไอเดียขึ้น คิดริเริ่มบริษัทPET CARE เพื่อดูแลสัตว์เลี้ยงของลูกค้าที่ไม่มีเวลาดูแลสัตว์เลี้ยงของตัวเองและจะดูแลอย่างดีเหมือนเป็นเจ้าของของสัตว์เลี้ยวตัวนั้น</p>
+        </article>
 
-<figure>
-    <img src="hr.png" alt="HR" style="width:200px;">
-    <figcaption>ชื่อ: ปาม  ตำแหน่ง HR</figcaption>
-</figure>
+        <h2>ทีมงานบริหาร</h2>
+        <section class="team-grid">
+            <figure>
+                <img src="ceo.png" alt="คุณอาร์ท CEO">
+                <figcaption><strong>คุณอาร์ท</strong><br>ตำแหน่ง CEO</figcaption>
+            </figure>
+            <figure>
+                <img src="hr.png" alt="คุณปาม HR">
+                <figcaption><strong>คุณปาม</strong><br>ตำแหน่ง HR</figcaption>
+            </figure>
+        </section>
 
-<figure>
-    <img src="pethotel.png" alt="Care" style="width:400px;">
-    <figcaption>ชื่อ: เอ  ตำแหน่ง เคาท์เตอร์</figcaption>
-    <figcaption>ชื่อ: บี  ตำแหน่ง แคลชเชียร์</figcaption>
-    <figcaption>ชื่อ: ซี  ตำแหน่ง ดูแลสัตว์</figcaption>
-    <figcaption>ชื่อ: ดี  ตำแหน่ง ดูแลสัตว์</figcaption>
-    <figcaption>ชื่อ: อี  ตำแหน่ง ดูแลสัตว์</figcaption>
-    <figcaption>ชื่อ: เอฟ  ตำแหน่ง ดูแลสัตว์</figcaption>
-</figure>
+        <h2>ฝ่ายบริการและดูแลสัตว์เลี้ยง</h2>
+        <section class="team-grid">
+            <figure>
+                <img src="pethotel.png" alt="คุณเอ">
+                <figcaption><strong>คุณเอ</strong><br>ตำแหน่ง เคาท์เตอร์</figcaption>
+            </figure>
+            <figure>
+                <img src="pethotel.png" alt="คุณบี">
+                <figcaption><strong>คุณบี</strong><br>ตำแหน่ง แคชเชียร์</figcaption>
+            </figure>
+            <figure>
+                <img src="pethotel.png" alt="คุณซี">
+                <figcaption><strong>คุณซี</strong><br>ตำแหน่ง ดูแลสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="pethotel.png" alt="คุณดี">
+                <figcaption><strong>คุณดี</strong><br>ตำแหน่ง ดูแลสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="pethotel.png" alt="คุณอี">
+                <figcaption><strong>คุณอี</strong><br>ตำแหน่ง ดูแลสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="pethotel.png" alt="คุณเอฟ">
+                <figcaption><strong>คุณเอฟ</strong><br>ตำแหน่ง ดูแลสัตว์</figcaption>
+            </figure>
+        </section>
 
-<figure>
-    <img src="walking.png" alt="walking" style="width:400px;">
-    <figcaption>ชื่อ: จี  ตำแหน่ง พาสัตว์เลี้ยงไปเดินเล่น</figcaption>
-    <figcaption>ชื่อ: เฮช  ตำแหน่ง พาสัตว์เลี้ยงไปเดินเล่น</figcaption>
-    <figcaption>ชื่อ: ไอ  ตำแหน่ง พาสัตว์เลี้ยงไปเดินเล่น</figcaption>
-    <figcaption>ชื่อ: เจ  ตำแหน่ง พาสัตว์เลี้ยงไปเดินเล่น</figcaption>
-    <figcaption>ชื่อ: เค  ตำแหน่ง พาสัตว์เลี้ยงไปเดินเล่น</figcaption>
-</figure>
+        <h2>ทีมงานพาสัตว์เลี้ยงเดินเล่น</h2>
+        <section class="team-grid">
+            <figure>
+                <img src="walking.png" alt="คุณจี">
+                <figcaption><strong>คุณจี</strong><br>ตำแหน่ง พาสัตว์เลี้ยงเดินเล่น</figcaption>
+            </figure>
+            <figure>
+                <img src="walking.png" alt="คุณเฮช">
+                <figcaption><strong>คุณเฮช</strong><br>ตำแหน่ง พาสัตว์เลี้ยงเดินเล่น</figcaption>
+            </figure>
+            <figure>
+                <img src="walking.png" alt="คุณไอ">
+                <figcaption><strong>คุณไอ</strong><br>ตำแหน่ง พาสัตว์เลี้ยงเดินเล่น</figcaption>
+            </figure>
+        </section>
 
-<figure>
-    <img src="takecare.png" alt="takecare" style="width:600px;">
-    <figcaption>ชื่อ: แอล  ตำแหน่ง อาบน้ำสัตว์</figcaption>
-    <figcaption>ชื่อ: เอ็ม  ตำแหน่ง อาบน้ำสัตว์</figcaption>
-    <figcaption>ชื่อ: เอ็น  ตำแหน่ง ตัดขนสัตว์</figcaption>
-    <figcaption>ชื่อ: โอ  ตำแหน่ง ตัดขนสัตว์</figcaption>
-</figure>
+        <h2>ทีมงานอาบน้ำและตัดขน</h2>
+        <section class="team-grid">
+            <figure>
+                <img src="takecare.png" alt="คุณแอล">
+                <figcaption><strong>คุณแอล</strong><br>ตำแหน่ง อาบน้ำสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="takecare.png" alt="คุณเอ็ม">
+                <figcaption><strong>คุณเอ็ม</strong><br>ตำแหน่ง อาบน้ำสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="takecare.png" alt="คุณเอ็น">
+                <figcaption><strong>คุณเอ็น</strong><br>ตำแหน่ง ตัดขนสัตว์</figcaption>
+            </figure>
+            <figure>
+                <img src="takecare.png" alt="คุณโอ">
+                <figcaption><strong>คุณโอ</strong><br>ตำแหน่ง ตัดขนสัตว์</figcaption>
+            </figure>
+        </section>
 
-<h2>Mission</h2>
-<h3>ให้บริการดูแลสัตว์เลี้ยงอย่างมีคุณภาพ</h3>
-<p>ดูแลสัตว์เลี้ยงของลูกค้าเหมือนว่าเป็นสัตว์เลี้ยงของเรา</p>
-<h3>พัฒนาบริการใหม่ ๆ เพื่อตอบโจทย์ความต้องการของเจ้าของสัตว์เลี้ยง</h3>
-<p>ตั้งแต่การตรวจสุขภาพ อาบน้ำตัดขน โรงแรมสัตว์ ไปจนถึงคำปรึกษาด้านพฤติกรรม</p>
-<h3>ดำเนินธุรกิจด้วยความซื่อสัตย์ โปร่งใส และหัวใจที่รักสัตว์</h3>
-<p>เพื่อสร้างความไว้วางใจระยะยาวกับเจ้าของสัตว์เลี้ยง</p>
-            
-<h2>Vision</h2>
-<p>มุ่งเป็นศูนย์บริการดูแลสัตว์เลี้ยงครบวงจรที่เจ้าของไว้วางใจมากที่สุด และยกระดับคุณภาพชีวิตของสัตว์เลี้ยงทุกตัวด้วยบริการที่อบอุ่น ปลอดภัย และได้มาตรฐานสากล</p>
-            
-<ul>
-        <li><a href="/index.html">กลับไปหน้าแรก</a></li>
-      </ul>
+        <section class="card-container">
+            <article class="card">
+                <h3>Mission</h3>
+                <p>ให้บริการดูแลสัตว์เลี้ยงอย่างมีคุณภาพ พัฒนาบริการใหม่ๆ เพื่อตอบโจทย์เจ้าของสัตว์เลี้ยง ดำเนินธุรกิจด้วยความซื่อสัตย์ โปร่งใส</p>
+            </article>
+            <article class="card">
+                <h3>Vision</h3>
+                <p>มุ่งเป็นศูนย์บริการดูแลสัตว์เลี้ยงครบวงจรที่เจ้าของไว้วางใจมากที่สุด และยกระดับคุณภาพชีวิตของสัตว์เลี้ยงทุกตัว</p>
+            </article>
+        </section>
+    </main>
+
+    <footer id="footer">
         <p>&copy; 2025 PET CARE. สงวนลิขสิทธิ์ทั้งหมด</p>
+    </footer>
 </body>
 </html>
