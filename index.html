@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>   
+    <title>PET CARE - หน้าแรก</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <header style="display: flex; align-items: center; gap: 10px;">
-    <h1>PET CARE</h1>
-    <img src="logo.png" alt="logo" style="width:160px;">
-    <nav>
-        <ul>
-            <li><a href="index.html">หน้าแรก</a></li>
-            <li><a href="about.html">เกี่ยวกับ</a></li>
-            <li><a href="services.html">บริการ</a></li>
-            <li><a href="contact.html">ติดต่อ</a></li>
-        </ul>
-    </nav>
-</header>
-            <h2>ยินดีต้อนรับสู่ PET CARE</h2>
-            <p>เรามอบความรักและการดูแลที่ดีที่สุดสำหรับสัตว์เลี้ยงของคุณ</p>
+    <header id="header">
+        <h1>PET CARE</h1>
+        <img src="logo.png" alt="logo" style="width:160px;">
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="services.html">บริการ</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <h1>ยินดีต้อนรับสู่ PET CARE</h1>
+            <p>เรามอบความรักและการดูแลที่ดีที่สุดสำหรับสัตว์เลี้ยงของคุณ</p>
+            <a href="services.html" class="btn">ดูบริการของเรา</a>
+        </section>
+
+        <section class="section">
             <h2>บริการหลักของเรา</h2>
-                    <h3>1.รับฝากเลี้ยงสัตว์เลี้ยง</h3>
-                    <p>เรารับฝากสัตว์เลี้ยงของคุณทั้งรายวันหรือค้างคืนและดูแลอย่างดีเหมือนสัตว์เลี้ยงของคุณคือสัตว์เลี้ยงของเรา</p>
-                    <h3>2.บริการพาสัตว์เลี้ยงไปเดินเล่น</h3>
-                    <p>มีบริการพาสัตว์เลี้ยงของไปเดินเล่นระหว่างรอคุณไปทำธุระของคุณ</p>
-                    <h3>3.บริการอาบน้ำตัดขน</h3>
+            <section class="card-container">
+                <article class="card">
+                    <h3>1. รับฝากเลี้ยงสัตว์เลี้ยง</h3>
+                    <p>เรารับฝากสัตว์เลี้ยงของคุณทั้งรายวันหรือค้างคืน และดูแลอย่างดีเหมือนเป็นสัตว์เลี้ยงของเราเอง</p>
+                </article>
+                <article class="card">
+                    <h3>2. บริการพาสัตว์เลี้ยงไปเดินเล่น</h3>
+                    <p>มีบริการพาสัตว์เลี้ยงของคุณไปเดินเล่นระหว่างรอคุณไปทำธุระของคุณ</p>
+                </article>
+                <article class="card">
+                    <h3>3. บริการอาบน้ำตัดขน</h3>
                     <p>มีบริการอาบน้ำและตัดขนอย่างดีเพื่อให้สัตว์เลี้ยงของคุณดูดี</p>
-    <footer>
-            <p>&copy; 2025 PET CARE. สงวนลิขสิทธิ์ทั้งหมด</p>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2025 PET CARE. สงวนลิขสิทธิ์ทั้งหมด</p>
     </footer>
 </body>
 </html>
